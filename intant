@@ -34086,6 +34086,82 @@
                                 for (l = t.createLinearGradient(0, 0, 0, i), l.addColorStop(0, "#333"), l.addColorStop(0.1, "#888"), n = o = 0, d = h - 1; o <= d; n = o += 1)
                                     l.addColorStop((n + 0.5) / h, "#000"), l.addColorStop(Math.min(1, (n + 1.5) / h), "#888");
                                 break;
+                            case "fullcolorr":
+                        s = t.createLinearGradient(0, 0, 0, i),
+                            s.addColorStop(0, "hsl(" + this.hue + ",90%,50%)"),
+                            s.addColorStop(.5, "hsl(" + this.hue + ",90%,70%)"),
+                            s.addColorStop(.5, "hsl(" + this.hue + ",90%,30%)"),
+                            s.addColorStop(1, "hsl(" + this.hue + ",90%,60%)");
+                        break;
+                    case "x277":
+                        s = t.createLinearGradient(0, 0, 0, i),
+                            s.addColorStop(0, "hsla(220,100%,30%)"),
+                            s.addColorStop(.5, "hsla(200,100%,70%)"),
+                            s.addColorStop(.5, "hsla(220,100%,40%)"),
+                            s.addColorStop(1, "hsla(200,100%,70%)");
+                        break;
+                    case "silverr":
+                        s = t.createLinearGradient(0, 0, 0, i),
+                            s.addColorStop(0, "#4c558d"),
+                            s.addColorStop(.5, "#979797"),
+                            s.addColorStop(.5, "#34354b"),
+                            s.addColorStop(1, "#949494");
+                        break;
+                    case "fullcolorrr":
+                        for (s = t.createLinearGradient(0, 0, 0, i), h = Math.min(10, this.size / 10), n = a = 1, u = h - 1; a <= u; n = a += 1) s.addColorStop(n / h, "hsl(" + this.hue + ",90%,55%)"), s.addColorStop((n + 1) / h,  "#001");
+                        for (l = t.createLinearGradient(0, 0, 0, i), l.addColorStop(0, "hsl(" + this.hue + ",90%,55%)"), l.addColorStop(.1, "hsl(" + this.hue + ",90%,55%)"), n = o = 5, d = h - 1; o <= d; n = o += 1) l.addColorStop((n + .5) / h, "hsl(" + this.hue + ",90%,55%)"), l.addColorStop(Math.min(1, (n + 1) / h), "hsl(" + this.hue + ",90%,55%)");
+                        break;
+                    case "cloudd":
+                        s = t.createLinearGradient(0, 0, 0, i),
+                            s.addColorStop(0, "#FFFFFF"),
+                            s.addColorStop(.5, "#7A7B92"),
+                            s.addColorStop(.5, "#34354b"),
+                            s.addColorStop(1, "#FFFFFF");
+                        break;
+                    case "seaa":
+                        s = t.createLinearGradient(0, 0, 0, i),
+                            s.addColorStop(0, "hsla(240,100%,30%)"),
+                            s.addColorStop(.5, "hsla(220,100%,60%)"),
+                            s.addColorStop(.5, "hsla(240,100%,20%)"),
+                            s.addColorStop(1, "hsla(220,100%,55%)");
+                        break;
+                    case "diamondd":
+                        for (s = t.createLinearGradient(0, 0, 0, i), h = Math.min(10, this.size / 12), n = a = 1, u = h - 1; a <= u; n = a += 1) s.addColorStop(n / h, "#757575"), s.addColorStop((n + 1) / h, "#222");
+                        for (l = t.createLinearGradient(0, 0, 0, i), l.addColorStop(0, "#ff0000"), l.addColorStop(.1, "#ff0000"), n = o = 5, d = h - 1; o <= d; n = o += 1) l.addColorStop((n + .5) / h, "#ff0000"), l.addColorStop(Math.min(1, (n + 1) / h), "#ff0000");
+                        break;
+                    case "copperr":
+                        s = t.createLinearGradient(0, 0, 0, i), s.addColorStop(0, "hsla(25.55,100%,25%)"), s.addColorStop(.5, "hsla(28.95,100%,80%)"), s.addColorStop(.5, "hsla(25.55,100%,30%)"), s.addColorStop(1, "hsla(28.95,100%,80%)");
+                        break;
+                    case "transparentt":
+                        s = t.createLinearGradient(0, 0, 0, i), s.addColorStop(0, "hsl(325,80%,15%,1.55)"), s.addColorStop(.5, "hsla(325,80%,15%,2.64)"), s.addColorStop(.5, "hsla(325,70%,10%,1.55)"), s.addColorStop(1, "hsla(325,70%,10%,2.64)");
+                        break;
+                    case "violett":
+                        s = t.createLinearGradient(0, 0, 0, i), s.addColorStop(0, "hsla(285,90%,60%)"), s.addColorStop(.5, "hsla(265,100%,40%)"), s.addColorStop(.5, "hsla(295,100%,0%)"), s.addColorStop(1, "hsla(275,80%,60%)");
+                        break;
+                    case "midnightbluee":
+                        s = t.createLinearGradient(0, 0, 0, i), s.addColorStop(0, "hsla(247,100%,20%)"), s.addColorStop(.5, "hsla(240,100%,30%)"), s.addColorStop(.5, "hsla(240,100%,10%)"), s.addColorStop(1, "hsla(240,100%,30%)");
+                        break;
+                    case "onyxx":
+                        s = t.createLinearGradient(0, 0, 0, i), s.addColorStop(0, "hsla(0,0%,0%,0.5)"), s.addColorStop(.5, "hsla(0,0%,65%,0.44)"), s.addColorStop(.5, "hsla(0,0%,0%,0.5)"), s.addColorStop(1, "hsla(0,0%,40%,0.64)");
+                        break;
+                    case "Nebulium":
+                        s = t.createLinearGradient(0, 0, 0, i), s.addColorStop(0, "hsla(32,100%,53%,0.4)"), s.addColorStop(.5, "hsla(32,100%,53%,0.5)"), s.addColorStop(.5, "hsla(32,100%,53%,0.5)"), s.addColorStop(1, "hsla(32,100%,53%,0.40)");
+                        break;
+                    case "emeraldd":
+                        s = t.createLinearGradient(0, 0, 0, i), s.addColorStop(0, "hsla(120,75%,75%)"), s.addColorStop(.5, "hsla(120,50%,35%)"), s.addColorStop(.5, "hsla(120,100%,5%)"), s.addColorStop(1, "hsla(120,65%,80%)");
+                        break;
+                    case "sapphiree":
+                        s = t.createLinearGradient(0, 0, 0, i), s.addColorStop(0, "hsla(222,90%,30%)"), s.addColorStop(.5, "hsla(239,900%,55%)"), s.addColorStop(.5, "hsla(239,90%,30%)"), s.addColorStop(1, "hsla(239,90%,55%)");
+                        break;
+                    case "uraniumm":
+                        s = t.createLinearGradient(0, 0, 0, i), s.addColorStop(0, "hsla(125.55,100%,10%)"), s.addColorStop(.5, "hsla(128.95,50%,20%)"), s.addColorStop(.5, "hsla(125.55,100%,10%)"), s.addColorStop(1, "hsla(128.95,50%,50%)");
+                        break;
+                    case "bronzee":
+                        s = t.createLinearGradient(0, 0, 0, i), s.addColorStop(0, "hsla(35.95,100%,30%)"), s.addColorStop(.5, "hsla(25.55,30%,30%)"), s.addColorStop(.5, "hsla(25.55,100%,0%)"), s.addColorStop(1, "hsla(25.95,70%,65%)");
+                        break;
+                    case "rubyy":
+                        s = t.createLinearGradient(0, 0, 0, i), s.addColorStop(0, "hsla(0,100%,20%)"), s.addColorStop(.5, "hsla(0,100%,65%)"), s.addColorStop(.5, "hsla(0,100%,5%)"), s.addColorStop(1, "hsla(0,100%,75%)");
+                        break;
                             default:
                                 (s = t.createLinearGradient(0, 0, 0, i)), s.addColorStop(0, "#EEE"), s.addColorStop(1, "#666");
                         }
@@ -34167,6 +34243,30 @@
                                 break;
                             case "seasonal":
                                 this.icon = "https://starblast.io/ecp/seasonal.png";
+                            case "srcchamp":
+                                this.icon = "https://starblast.io/ecp/srcchamp.png";
+                                break;
+                            case "sdcchamp":
+                                this.icon = "https://starblast.io/ecp/sdcchamp.png";
+                                break;
+                            case "shipwright":
+                                this.icon = "https://starblast.io/ecp/shipdesigner.jpg";
+                                break;
+                            case "translator":
+                                this.icon = "https://starblast.io/ecp/translator.png";
+                                break;
+                            case "dev":
+                                this.icon = "https://starblast.io/ecp/dev.png";
+                                break;
+                            case "Developer":
+                                this.icon = "https://starblast.io/ecp/dev.png";
+                                break;
+                            case "SDCChampion":
+                                this.icon = "https://starblast.io/ecp/sdcchamp.png";
+                                break;
+                            case "SRCChampion":
+                                this.icon = "https://starblast.io/ecp/srcchamp.png";
+                                break;
                         }
                         if (((d = Math.round(i / 2.2)), null != this.icon && this.icon.startsWith("http"))) {
                             if (
