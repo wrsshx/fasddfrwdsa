@@ -27143,6 +27143,8 @@
                                 { text: "Follow", icon: "P", key: "F" },
                                 { text: "Kill", icon: "[", key: "K" },
                                 { text: "Hmm", icon: "K", key: "Q" },
+                                { text: "Иди нахуй", icon: "K", key: "Z" },
+
                             ]),
                             (this.radar_zoom = 1),
                             (this.soundtrack = "argon.mp3"),
