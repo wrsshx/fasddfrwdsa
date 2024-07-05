@@ -32134,7 +32134,7 @@
                                         (l.innerHTML = "<div class='infos'>" + n + "</div>"),
                                         (i = document.querySelector(".modal .modalbody #infologo")),
                                         (e = new Image()),
-                                        (e.src = "https://starblast.data.neuronality.com/img/starblast_io_logo.svg"),
+                                        (e.src = "https://i.ibb.co.com/jyNBLMq/INTANT-1.png"),
                                         i.appendChild(e),
                                         this.showModal("infos"))
                             );
